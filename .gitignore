@@ -1,0 +1,3 @@
+docs/build/
+dist/
+/src/example_package_NAME.egg-info/
