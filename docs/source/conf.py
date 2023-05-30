@@ -175,25 +175,25 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 rst_prolog = """
-:github_url: https://github.com/torvalds/linux
+:github_url: https://github.com/zhengshuai1/py_project
 """
 
 # -- General configuration
 
-extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-]
+# extensions = [
+#     'sphinx.ext.duration',
+#     'sphinx.ext.doctest',
+#     'sphinx.ext.autodoc',
+#     'sphinx.ext.autosummary',
+#     'sphinx.ext.intersphinx',
+# ]
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
-intersphinx_disabled_domains = ['std']
-
-templates_path = ['_templates']
+# intersphinx_disabled_domains = ['std']
+#
+# templates_path = ['_templates']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
