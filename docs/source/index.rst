@@ -5,43 +5,14 @@
 
 Welcome to py_project's documentation!
 ======================================
+这是一个python project example, 主要包括python打包，结合github
+action自动发布PyPI, 文档使用Sphinx + Read the Docs.
+
+
 
 .. toctree::
    :maxdepth: 2
-   :glob:
    :caption: Contents:
 
    main/index
 
-
-
-一级标题
-^^^^^^^^
-二级标题
----------
-
-- 符号列表1
-- 符号列表2
-
-  + 二级符号列表1
-
-  - 二级符号列表2
-
-  * 二级符号列表3
-
-* 符号列表3
-
-+ 符号列表4
-
-
-
-
-
-三级标题
->>>>>>>>>
-四级标题
-:::::::::
-五级标题
-'''''''''
-六级标题
-""""""""
